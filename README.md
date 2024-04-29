@@ -21,7 +21,7 @@ skin detection consists of three basic operations: initial segmentation, skin pi
 ![image](https://github.com/vinit714/A-Recommendation-system-for-Facial-Skin-Care-using-Machine-Learning-Models/assets/52816788/c9c3f04f-169f-4d04-a93f-f7ed96e765c9)
 
 The threshold value is used for initial segmentation, which is the average of TOTSU and TMAX. These numbers were obtained from the grayscale image's image histogram.
-## Recommendation for Skin Type
+## Recommendation according to Skin Type
 The image is analyzed and classified using convolutional neural networks (CNN), dividing face skin types into standard, oily, and dry. With a training accuracy of 87.10% and a validation accuracy of 80%, transfer learning (EfficientNet B0) is being used to increase the model's accuracy, which currently has a training accuracy of 87.10%.
 
 ![image](https://github.com/vinit714/A-Recommendation-system-for-Facial-Skin-Care-using-Machine-Learning-Models/assets/52816788/e9f51e82-7cda-4b02-aabe-50a0d795effd)
